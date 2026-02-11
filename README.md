@@ -189,13 +189,11 @@ After processing 1,000 images:
 ```
 CLAUDE METHOD:
   Total humans: 3,050 (3.05/image avg)
-  Images with people: 1,200 (120%)
   Vehicles detected: 350 (cars, motorcycles, ATVs)
   Activity gear: 450 backpacks, 280 bikes
 
 PIPELINE METHOD:
   Total humans: 3,010 (3.01/image avg)
-  Images with people: 1,180 (118%)
   Method agreement: r=0.890 (very strong)
 ```
 
