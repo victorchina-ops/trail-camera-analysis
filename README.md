@@ -306,5 +306,6 @@ This tool is provided as-is for trail camera image analysis. Results depend on i
 - Claude: [CLAUDE_API_SETUP.md](CLAUDE_API_SETUP.md)
 
 **Ready to start?** Open a notebook:
-- Full Pipeline: https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb
-- Pipeline Only: https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb
+- Full Pipeline: [https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb
+)
+- Pipeline Only: [https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb)
