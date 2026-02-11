@@ -196,8 +196,8 @@ See: [Trail_Camera_Analysis_Comparison.ipynb](notebooks/Trail_Camera_Analysis_Co
 | **Human Detection** | Excellent | Excellent |
 | **Demographics** | Adult/Child/Gender | Adult/Child only |
 | **Activities** | Bikes, Dogs, Backpacks, Vehicles | People only |
-| **Speed** | ~2-3 sec/image | ~1 sec/image |
-| **Cost** | ~$0.02/image | Free |
+| **Speed** | ~1 sec/image | ~0.5 sec/image |
+| **Cost** | ~$0.015/image | Free |
 | **API Required** | Yes | No |
 | **Accuracy** | Very High | High |
 
