@@ -269,7 +269,7 @@ If you use this code in research, please cite:
 ```bibtex
 @software{trail_camera_analysis,
   title={Trail Camera Analysis: Automated Detection Pipeline},
-  author={Your Name},
+  author={Victor China},
   year={2026},
   url={https://github.com/yourusername/trail-camera-analysis}
 }
