@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 victorchina-ops
+Copyright (c) 2026 Trail Camera Analysis Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+===
+
+DISCLAIMER:
+
+This tool is provided for trail camera image analysis purposes. Results depend on
+image quality, lighting, environmental conditions, and other factors beyond the
+control of the authors.
+
+The authors make no warranties about the accuracy, reliability, or fitness for
+any particular purpose. Users should:
+
+1. Always validate results manually, especially for critical applications
+2. Test on a small sample before full-scale processing
+3. Not rely solely on automated results for important decisions
+4. Understand the limitations of both detection methods
+5. Use appropriate thresholds for their specific use case
+
+For applications involving wildlife, conservation, or property security,
+professional review is recommended.
