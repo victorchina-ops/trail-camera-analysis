@@ -75,7 +75,16 @@ Automated detection and classification of humans and activities in trail camera 
 - See: [`notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb`](notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb)
 - No API key needed
 
-### Step 3: Run in Google Colab
+### Step 3: Analyze Results (Optional)
+
+**Option C: Compare Results**
+- Analyze outputs from both methods side-by-side
+- Generate comparison tables and visualizations
+- Create spider/radar plots for site characteristics
+- See: [`notebooks/Trail_Camera_Analysis_Comparison.ipynb`](notebooks/Trail_Camera_Analysis_Comparison.ipynb)
+- Use after running Step 1 or 2
+
+### Step 4: Run in Google Colab
 
 1. Open the notebook (click link above)
 2. Click "Open in Colab"
@@ -97,7 +106,8 @@ trail-camera-analysis/
 │   └── model_pipeline_megadetector_only.py
 ├── notebooks/
 │   ├── Trail_Camera_Analysis_Full.ipynb
-│   └── Trail_Camera_Analysis_Pipeline_Only.ipynb
+│   ├── Trail_Camera_Analysis_Pipeline_Only.ipynb
+│   └── Trail_Camera_Analysis_Comparison.ipynb
 └── docs/
     ├── SETUP_INSTRUCTIONS.md
     ├── PARAMETER_GUIDE.md
@@ -164,9 +174,20 @@ Pipeline_Total,Pipeline_Adult,Pipeline_Child
 ```
 
 Plus:
-- **Validation sheets** (visual PDF with overlaid results)
+- **Validation sheets** (visual PNG with overlaid results)
 - **Checkpoints** (auto-saved every 50 images)
 - **Summary statistics** (printed to console)
+
+## 📈 Analysis & Comparison
+
+After running the pipelines, use the **Comparison notebook** to:
+- Compare method accuracy and agreement
+- Generate site characteristic tables
+- Create spider plots for multi-variable comparison
+- Analyze detection sensitivity by crowd size
+- Export publication-ready figures and tables
+
+See: [Trail_Camera_Analysis_Comparison.ipynb](notebooks/Trail_Camera_Analysis_Comparison.ipynb)
 
 ## 🔬 Method Comparison
 
@@ -258,6 +279,11 @@ CSV Results + Validation Sheets
 - Use Pipeline Only version (faster)
 - Or request GPU in Colab runtime settings
 
+### Comparison notebook results
+- Results save to your RESULTS_FOLDER in Google Drive
+- Check notebook output for saved file paths
+- Download tables and figures directly from Google Drive
+
 See detailed troubleshooting: [SETUP_INSTRUCTIONS.md](docs/SETUP_INSTRUCTIONS.md)
 
 ## 📝 Citation
@@ -269,7 +295,7 @@ If you use this code in research, please cite:
   title={Trail Camera Analysis: Automated Detection Pipeline},
   author={Victor China},
   year={2026},
-  url={https://github.com/yourusername/trail-camera-analysis}
+  url={https://github.com/victorchina-ops/trail-camera-analysis}
 }
 ```
 
@@ -304,6 +330,6 @@ This tool is provided as-is for trail camera image analysis. Results depend on i
 - Claude: [CLAUDE_API_SETUP.md](CLAUDE_API_SETUP.md)
 
 **Ready to start?** Open a notebook:
-- Full Pipeline: [https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb
-)
-- Pipeline Only: [https://colab.research.google.com/github/yourusername/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb)
+- **Full Pipeline:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Full.ipynb)
+- **Pipeline Only:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Pipeline_Only.ipynb)
+- **Compare Results:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/victorchina-ops/trail-camera-analysis/blob/main/notebooks/Trail_Camera_Analysis_Comparison.ipynb)
